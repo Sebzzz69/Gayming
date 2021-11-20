@@ -8,6 +8,8 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController controller;
 
     public float speed = 12f;
+    public float sprintSpeed = 16f;
+
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
 
@@ -34,6 +36,19 @@ public class PlayerMovement : MonoBehaviour
         //Movement Vertical and Horizontal
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
+
+        
+        //Sprinting
+        
+
+        if (Input.GetKey("left shift") && isGrounded)
+        {
+            speed = sprintSpeed;
+        }
+        else
+        {
+            speed = 12f; ;
+        }
 
         Vector3 move = transform.right * x + transform.forward * z;
 
