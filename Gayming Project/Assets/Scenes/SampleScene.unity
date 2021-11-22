@@ -480,10 +480,22 @@ PrefabInstance:
     - target: {fileID: 814590710680353617, guid: 70bcdbd1ab804cf449052ef97b35c634, type: 3}
       propertyPath: muzzleFlash
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1286184923}
     - target: {fileID: 2144714920790469830, guid: 70bcdbd1ab804cf449052ef97b35c634, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3884890631372348371, guid: 70bcdbd1ab804cf449052ef97b35c634, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3884890631372348371, guid: 70bcdbd1ab804cf449052ef97b35c634, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0003
+      objectReference: {fileID: 0}
+    - target: {fileID: 3884890631372348371, guid: 70bcdbd1ab804cf449052ef97b35c634, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.1722
       objectReference: {fileID: 0}
     - target: {fileID: 7631768765987613748, guid: 70bcdbd1ab804cf449052ef97b35c634, type: 3}
       propertyPath: m_Name
@@ -1349,6 +1361,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 50
+--- !u!198 &1286184923 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8942636004490283739, guid: 70bcdbd1ab804cf449052ef97b35c634, type: 3}
+  m_PrefabInstance: {fileID: 686537778}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1376068042
 GameObject:
   m_ObjectHideFlags: 0
