@@ -275,7 +275,7 @@ GameObject:
   - component: {fileID: 452304984}
   - component: {fileID: 452304983}
   m_Layer: 6
-  m_Name: groundshit
+  m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
