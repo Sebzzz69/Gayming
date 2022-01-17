@@ -41,8 +41,7 @@ GameObject:
   - component: {fileID: 7631768765987613754}
   - component: {fileID: 7631768765987613755}
   - component: {fileID: 7631768765987613753}
-  - component: {fileID: 140797610}
-  - component: {fileID: 4814977664271358774}
+  - component: {fileID: 2986955093515200909}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -107,22 +106,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 64
---- !u!114 &140797610
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7631768765987613748}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9edd06a2589125c4895c7188f424560e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet: {fileID: 7407962608847542439, guid: 1eced87c19ca4bb4b9b217d6648bac93, type: 3}
-  bulletSpawn: {fileID: 0}
-  fireRate: 5
---- !u!114 &4814977664271358774
+--- !u!114 &2986955093515200909
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,7 +115,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7631768765987613748}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 798910bcec076e2439d31b1b2b0b3853, type: 3}
+  m_Script: {fileID: 11500000, guid: 4daa5e3de9235364abcadcdd3025f7b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7631768766377100803
