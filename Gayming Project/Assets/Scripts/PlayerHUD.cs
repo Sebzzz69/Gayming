@@ -10,7 +10,7 @@ public class PlayerHUD : MonoBehaviour
 
     private PlayerStats stats;
 
-    private void UppdateHealth(int currentHealth, int maxHealth)
+    public void UpdateHealth(int currentHealth, int maxHealth)
     {
         currentHealthText.text = currentHealth.ToString();
         maxHealthText.text = maxHealth.ToString(); 

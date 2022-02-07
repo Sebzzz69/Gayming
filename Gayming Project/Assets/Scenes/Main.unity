@@ -3170,8 +3170,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bcc83009c392484982dcce5ed2df820, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealthText: {fileID: 0}
-  maxHealthText: {fileID: 0}
+  currentHealthText: {fileID: 1927296571}
+  maxHealthText: {fileID: 1305023557}
 --- !u!1001 &1986345892
 PrefabInstance:
   m_ObjectHideFlags: 0

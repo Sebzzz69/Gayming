@@ -12,14 +12,16 @@ public class CharacterStats : MonoBehaviour
 
     private void Start()
     {
-        IntVariables();
+        InitVariables();
 
     }
 
-    //Functions
+    //Funktioner för charactär-stats.
+    //Detta scripts används i combination
+    //med ett annat på en valfri charactär. 
 
     //Checks health
-    public void CheckHealth()
+    public virtual void CheckHealth()
     {
         if (health <= 0)
         {
@@ -35,6 +37,8 @@ public class CharacterStats : MonoBehaviour
     public void Die()
     {
         isDead = true;
+        //if (isDead == true)
+        //    Destroy(gameObject);
     }
 
     public void SetHealthTo(int healthToSetTo) 
@@ -57,7 +61,7 @@ public class CharacterStats : MonoBehaviour
         SetHealthTo(healthAfterHeal);
     }
 
-    public void IntVariables()
+    public void InitVariables()
     {
         maxHealth = 100;
         SetHealthTo(maxHealth);
